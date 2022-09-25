@@ -13,7 +13,7 @@ from pytorch_lightning import Callback
 from pytorch_lightning.callbacks import ProgressBarBase
 from pytorch_lightning.callbacks.progress.base import get_standard_metrics
 from pytorch_lightning.loggers import TensorBoardLogger
-from pytorch_lightning.strategies import CollaborativeStrategy
+from pytorch_lightning.strategies import HivemindStrategy as CollaborativeStrategy
 
 _log = logging.getLogger(__name__)
 
