@@ -19,7 +19,7 @@ from hivemind.optim.grad_averager import GradientAverager
 from hivemind.optim.power_sgd_averager import PowerSGDGradientAverager
 from lightning.app.components.python import TracerPythonScript
 from lightning.app.utilities.tracer import Tracer
-from pytorch_lightning.strategies import CollaborativeStrategy
+from pytorch_lightning.strategies import HivemindStrategy as CollaborativeStrategy
 
 from collaborate.components.callbacks import (
     CollaborativeProgressBar,
